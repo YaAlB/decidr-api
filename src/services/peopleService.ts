@@ -14,6 +14,8 @@ export const getPeople = async (
         { last_name: new RegExp(search, 'i') },
         { 'locations.name': new RegExp(search, 'i') },
         { 'affiliations.name': new RegExp(search, 'i') },
+        { species: new RegExp(search, 'i') },
+        { gender: new RegExp(search, 'i') },
       ],
     }
   : {};

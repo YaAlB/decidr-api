@@ -7,6 +7,8 @@ const PersonSchema = new mongoose.Schema({
   affiliations: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Affiliation' }],
   weapon: { type: String },
   vehicle: { type: String },
+  species: { type: String },
+  gender: { type: String },
 });
 
 // Create indexes
