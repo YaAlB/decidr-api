@@ -39,7 +39,7 @@ You will also need the provided CSV file for testing:
 3. Create a `.env` file with the following configuration:
    ```plaintext
    PORT=8000
-   MONGO_URI=mongodb://localhost:27017/decidr
+   MONGO_URI=
    ```
 
    Replace `MONGO_URI` with your MongoDB connection string if using a cloud instance.
